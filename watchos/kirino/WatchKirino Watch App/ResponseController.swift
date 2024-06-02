@@ -13,9 +13,11 @@ import UserNotifications
 class ResponseController: WKUserNotificationHostingController<ResponseNotificationView>{
     var name: String?
     var detail: [String]?
+    var temp: String?
     var response: String?
     var message: Message?
     
+    let separator = "<sep>"
     let messageIndexKey = "messageIndex"
     
     override var body: ResponseNotificationView{
@@ -41,11 +43,16 @@ class ResponseController: WKUserNotificationHostingController<ResponseNotificati
         let alert = aps?["alert"] as? [String: Any]
 
         name = alert?["title"] as? String
-        detail = alert?["body"] as? [String]
+        temp = alert?["body"] as? String
         response = alert?["subtitle"] as? String
 
+        // Profile Image
         if let index = notificationData?[messageIndexKey] as? Int {
             message = modelData.messages[index]
         }
+        
+        // History
+        temp = notificationData?["history"] as? String
+        detail = temp?.components(separatedBy: separator)
     }
 }

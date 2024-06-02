@@ -165,9 +165,9 @@ cython_debug/
 # core data
 *.plist
 *.json
+*.xcuserstate
 watchos/kirino/kirino/Assets.xcassets/*
 *.apns
 watchos/kirino/kirino.xcodeproj/xcuserdata/now.xcuserdatad/xcschemes/xcschememanagement.plist
 watchos/kirino/kirino.xcodeproj/xcuserdata/now.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
 watchos/kirino/kirino.xcodeproj/xcuserdata/now.xcuserdatad/xcschemes/xcschememanagement.plist
-watchos/kirino/kirino.xcodeproj/project.xcworkspace/xcuserdata/now.xcuserdatad/UserInterfaceState.xcuserstate
