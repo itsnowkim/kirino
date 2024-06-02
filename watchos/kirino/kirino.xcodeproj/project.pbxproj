@@ -7,62 +7,194 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9471D5202C043EFC00175AE1 /* kirinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9471D51F2C043EFC00175AE1 /* kirinoApp.swift */; };
-		9471D5222C043EFC00175AE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9471D5212C043EFC00175AE1 /* ContentView.swift */; };
-		9471D5242C043EFF00175AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9471D5232C043EFF00175AE1 /* Assets.xcassets */; };
-		9471D5272C043EFF00175AE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9471D5262C043EFF00175AE1 /* Preview Assets.xcassets */; };
+		942F11382C0A5C59008B5B91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 942F11372C0A5C59008B5B91 /* GoogleService-Info.plist */; };
+		94599CA52C060AD200CA5DDC /* kirinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94599CA42C060AD200CA5DDC /* kirinoApp.swift */; };
+		94599CA72C060AD200CA5DDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94599CA62C060AD200CA5DDC /* ContentView.swift */; };
+		94599CA92C060AD300CA5DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94599CA82C060AD300CA5DDC /* Assets.xcassets */; };
+		94599CAC2C060AD300CA5DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94599CAB2C060AD300CA5DDC /* Preview Assets.xcassets */; };
+		94599CB42C060B6400CA5DDC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94599CB32C060B6400CA5DDC /* Message.swift */; };
+		94599CB62C060BF700CA5DDC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94599CB52C060BF700CA5DDC /* CircleImage.swift */; };
+		94599CB82C060D0000CA5DDC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94599CB72C060D0000CA5DDC /* ModelData.swift */; };
+		94599CBB2C060DEE00CA5DDC /* messageData.json in Resources */ = {isa = PBXBuildFile; fileRef = 94599CBA2C060DEE00CA5DDC /* messageData.json */; };
+		94599CC72C07680C00CA5DDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94599CC62C07680C00CA5DDC /* ContentView.swift */; };
+		94599CC92C07680D00CA5DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94599CC82C07680D00CA5DDC /* Assets.xcassets */; };
+		94599CCC2C07680D00CA5DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94599CCB2C07680D00CA5DDC /* Preview Assets.xcassets */; };
+		94599CCF2C07680E00CA5DDC /* WatchKirino Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 94599CC22C07680C00CA5DDC /* WatchKirino Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9479F31E2C08949D00A3EA74 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9479F31D2C08949D00A3EA74 /* DetailView.swift */; };
+		9479F3202C089C8700A3EA74 /* WatchKirinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9479F31F2C089C8700A3EA74 /* WatchKirinoApp.swift */; };
+		9479F3222C08BA6F00A3EA74 /* ResponseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9479F3212C08BA6F00A3EA74 /* ResponseController.swift */; };
+		9479F3252C08BB7200A3EA74 /* ResponseNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9479F3242C08BB7200A3EA74 /* ResponseNotificationView.swift */; };
+		9479F32F2C09C49300A3EA74 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9479F32E2C09C49300A3EA74 /* ExtensionDelegate.swift */; };
+		94904CC22C09F2E70080EDE4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 94904CC12C09F2E70080EDE4 /* FirebaseAnalytics */; };
+		94904CC42C09F2E70080EDE4 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 94904CC32C09F2E70080EDE4 /* FirebaseMessaging */; };
+		94E1E6862C083E9A007C9258 /* messageData.json in Resources */ = {isa = PBXBuildFile; fileRef = 94599CBA2C060DEE00CA5DDC /* messageData.json */; };
+		94E1E6872C083E9A007C9258 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94599CB32C060B6400CA5DDC /* Message.swift */; };
+		94E1E6882C083E9A007C9258 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94599CB72C060D0000CA5DDC /* ModelData.swift */; };
+		94E1E6892C083E9A007C9258 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94599CB52C060BF700CA5DDC /* CircleImage.swift */; };
+		94E1E68B2C083EEF007C9258 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1E68A2C083EEF007C9258 /* NotificationView.swift */; };
+		94E1E68D2C08455B007C9258 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1E68C2C08455B007C9258 /* NotificationController.swift */; };
+		94E1E68F2C088E74007C9258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94599CA82C060AD300CA5DDC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		94599CCD2C07680E00CA5DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94599C992C060AD200CA5DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94599CC12C07680C00CA5DDC;
+			remoteInfo = "WatchKirino Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94599CD32C07680E00CA5DDC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				94599CCF2C07680E00CA5DDC /* WatchKirino Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		9471D51C2C043EFC00175AE1 /* kirino Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kirino Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9471D51F2C043EFC00175AE1 /* kirinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kirinoApp.swift; sourceTree = "<group>"; };
-		9471D5212C043EFC00175AE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9471D5232C043EFF00175AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9471D5262C043EFF00175AE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		942F11372C0A5C59008B5B91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94599CA12C060AD200CA5DDC /* kirino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kirino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94599CA42C060AD200CA5DDC /* kirinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kirinoApp.swift; sourceTree = "<group>"; };
+		94599CA62C060AD200CA5DDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94599CA82C060AD300CA5DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94599CAB2C060AD300CA5DDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94599CB32C060B6400CA5DDC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		94599CB52C060BF700CA5DDC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		94599CB72C060D0000CA5DDC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		94599CBA2C060DEE00CA5DDC /* messageData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = messageData.json; sourceTree = "<group>"; };
+		94599CC22C07680C00CA5DDC /* WatchKirino Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchKirino Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94599CC62C07680C00CA5DDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94599CC82C07680D00CA5DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94599CCB2C07680D00CA5DDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9479F31D2C08949D00A3EA74 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9479F31F2C089C8700A3EA74 /* WatchKirinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchKirinoApp.swift; sourceTree = "<group>"; };
+		9479F3212C08BA6F00A3EA74 /* ResponseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseController.swift; sourceTree = "<group>"; };
+		9479F3232C08BABC00A3EA74 /* ResponsePushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = ResponsePushNotificationPayload.apns; sourceTree = "<group>"; };
+		9479F3242C08BB7200A3EA74 /* ResponseNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseNotificationView.swift; sourceTree = "<group>"; };
+		9479F3282C09BC9400A3EA74 /* WatchKirino Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchKirino Watch App.entitlements"; sourceTree = "<group>"; };
+		9479F3292C09BC9D00A3EA74 /* kirino.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kirino.entitlements; sourceTree = "<group>"; };
+		9479F32A2C09BCB300A3EA74 /* WatchKirino-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WatchKirino-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9479F32B2C09BCB900A3EA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9479F32E2C09C49300A3EA74 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		94E1E68A2C083EEF007C9258 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		94E1E68C2C08455B007C9258 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		94E1E68E2C0847B1007C9258 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9471D5192C043EFC00175AE1 /* Frameworks */ = {
+		94599C9E2C060AD200CA5DDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		94599CBF2C07680C00CA5DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94904CC42C09F2E70080EDE4 /* FirebaseMessaging in Frameworks */,
+				94904CC22C09F2E70080EDE4 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9471D5132C043EFC00175AE1 = {
+		94599C982C060AD200CA5DDC = {
 			isa = PBXGroup;
 			children = (
-				9471D51E2C043EFC00175AE1 /* kirino Watch App */,
-				9471D51D2C043EFC00175AE1 /* Products */,
+				94599CA32C060AD200CA5DDC /* kirino */,
+				94599CC32C07680C00CA5DDC /* WatchKirino Watch App */,
+				94599CA22C060AD200CA5DDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9471D51D2C043EFC00175AE1 /* Products */ = {
+		94599CA22C060AD200CA5DDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9471D51C2C043EFC00175AE1 /* kirino Watch App.app */,
+				94599CA12C060AD200CA5DDC /* kirino.app */,
+				94599CC22C07680C00CA5DDC /* WatchKirino Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9471D51E2C043EFC00175AE1 /* kirino Watch App */ = {
+		94599CA32C060AD200CA5DDC /* kirino */ = {
 			isa = PBXGroup;
 			children = (
-				9471D51F2C043EFC00175AE1 /* kirinoApp.swift */,
-				9471D5212C043EFC00175AE1 /* ContentView.swift */,
-				9471D5232C043EFF00175AE1 /* Assets.xcassets */,
-				9471D5252C043EFF00175AE1 /* Preview Content */,
+				9479F32B2C09BCB900A3EA74 /* Info.plist */,
+				9479F3292C09BC9D00A3EA74 /* kirino.entitlements */,
+				94599CB92C060DD400CA5DDC /* Resources */,
+				94599CB22C060AE000CA5DDC /* Model */,
+				94599CA42C060AD200CA5DDC /* kirinoApp.swift */,
+				94599CA62C060AD200CA5DDC /* ContentView.swift */,
+				94599CA82C060AD300CA5DDC /* Assets.xcassets */,
+				94599CAA2C060AD300CA5DDC /* Preview Content */,
+				94599CB52C060BF700CA5DDC /* CircleImage.swift */,
 			);
-			path = "kirino Watch App";
+			path = kirino;
 			sourceTree = "<group>";
 		};
-		9471D5252C043EFF00175AE1 /* Preview Content */ = {
+		94599CAA2C060AD300CA5DDC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9471D5262C043EFF00175AE1 /* Preview Assets.xcassets */,
+				94599CAB2C060AD300CA5DDC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94599CB22C060AE000CA5DDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94599CB32C060B6400CA5DDC /* Message.swift */,
+				94599CB72C060D0000CA5DDC /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94599CB92C060DD400CA5DDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94599CBA2C060DEE00CA5DDC /* messageData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94599CC32C07680C00CA5DDC /* WatchKirino Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				942F11372C0A5C59008B5B91 /* GoogleService-Info.plist */,
+				9479F32A2C09BCB300A3EA74 /* WatchKirino-Watch-App-Info.plist */,
+				9479F3282C09BC9400A3EA74 /* WatchKirino Watch App.entitlements */,
+				9479F31F2C089C8700A3EA74 /* WatchKirinoApp.swift */,
+				94599CC62C07680C00CA5DDC /* ContentView.swift */,
+				94599CC82C07680D00CA5DDC /* Assets.xcassets */,
+				94599CCA2C07680D00CA5DDC /* Preview Content */,
+				94E1E68A2C083EEF007C9258 /* NotificationView.swift */,
+				9479F31D2C08949D00A3EA74 /* DetailView.swift */,
+				9479F3242C08BB7200A3EA74 /* ResponseNotificationView.swift */,
+				94E1E68C2C08455B007C9258 /* NotificationController.swift */,
+				9479F3212C08BA6F00A3EA74 /* ResponseController.swift */,
+				94E1E68E2C0847B1007C9258 /* PushNotificationPayload.apns */,
+				9479F3232C08BABC00A3EA74 /* ResponsePushNotificationPayload.apns */,
+				9479F32E2C09C49300A3EA74 /* ExtensionDelegate.swift */,
+			);
+			path = "WatchKirino Watch App";
+			sourceTree = "<group>";
+		};
+		94599CCA2C07680D00CA5DDC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94599CCB2C07680D00CA5DDC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +202,65 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9471D51B2C043EFC00175AE1 /* kirino Watch App */ = {
+		94599CA02C060AD200CA5DDC /* kirino */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9471D5402C043EFF00175AE1 /* Build configuration list for PBXNativeTarget "kirino Watch App" */;
+			buildConfigurationList = 94599CAF2C060AD300CA5DDC /* Build configuration list for PBXNativeTarget "kirino" */;
 			buildPhases = (
-				9471D5182C043EFC00175AE1 /* Sources */,
-				9471D5192C043EFC00175AE1 /* Frameworks */,
-				9471D51A2C043EFC00175AE1 /* Resources */,
+				94599C9D2C060AD200CA5DDC /* Sources */,
+				94599C9E2C060AD200CA5DDC /* Frameworks */,
+				94599C9F2C060AD200CA5DDC /* Resources */,
+				94599CD32C07680E00CA5DDC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94599CCE2C07680E00CA5DDC /* PBXTargetDependency */,
+			);
+			name = kirino;
+			productName = kirino;
+			productReference = 94599CA12C060AD200CA5DDC /* kirino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94599CC12C07680C00CA5DDC /* WatchKirino Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94599CD02C07680E00CA5DDC /* Build configuration list for PBXNativeTarget "WatchKirino Watch App" */;
+			buildPhases = (
+				94599CBE2C07680C00CA5DDC /* Sources */,
+				94599CBF2C07680C00CA5DDC /* Frameworks */,
+				94599CC02C07680C00CA5DDC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "kirino Watch App";
-			productName = "kirino Watch App";
-			productReference = 9471D51C2C043EFC00175AE1 /* kirino Watch App.app */;
+			name = "WatchKirino Watch App";
+			packageProductDependencies = (
+				94904CC12C09F2E70080EDE4 /* FirebaseAnalytics */,
+				94904CC32C09F2E70080EDE4 /* FirebaseMessaging */,
+			);
+			productName = "WatchKirino Watch App";
+			productReference = 94599CC22C07680C00CA5DDC /* WatchKirino Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9471D5142C043EFC00175AE1 /* Project object */ = {
+		94599C992C060AD200CA5DDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					9471D51B2C043EFC00175AE1 = {
+					94599CA02C060AD200CA5DDC = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					94599CC12C07680C00CA5DDC = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 9471D5172C043EFC00175AE1 /* Build configuration list for PBXProject "kirino" */;
+			buildConfigurationList = 94599C9C2C060AD200CA5DDC /* Build configuration list for PBXProject "kirino" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +268,88 @@
 				en,
 				Base,
 			);
-			mainGroup = 9471D5132C043EFC00175AE1;
-			productRefGroup = 9471D51D2C043EFC00175AE1 /* Products */;
+			mainGroup = 94599C982C060AD200CA5DDC;
+			packageReferences = (
+				94904CC02C09F2E70080EDE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 94599CA22C060AD200CA5DDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9471D51B2C043EFC00175AE1 /* kirino Watch App */,
+				94599CA02C060AD200CA5DDC /* kirino */,
+				94599CC12C07680C00CA5DDC /* WatchKirino Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9471D51A2C043EFC00175AE1 /* Resources */ = {
+		94599C9F2C060AD200CA5DDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9471D5272C043EFF00175AE1 /* Preview Assets.xcassets in Resources */,
-				9471D5242C043EFF00175AE1 /* Assets.xcassets in Resources */,
+				94599CBB2C060DEE00CA5DDC /* messageData.json in Resources */,
+				94599CAC2C060AD300CA5DDC /* Preview Assets.xcassets in Resources */,
+				94599CA92C060AD300CA5DDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94599CC02C07680C00CA5DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E1E6862C083E9A007C9258 /* messageData.json in Resources */,
+				94599CCC2C07680D00CA5DDC /* Preview Assets.xcassets in Resources */,
+				942F11382C0A5C59008B5B91 /* GoogleService-Info.plist in Resources */,
+				94E1E68F2C088E74007C9258 /* Assets.xcassets in Resources */,
+				94599CC92C07680D00CA5DDC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9471D5182C043EFC00175AE1 /* Sources */ = {
+		94599C9D2C060AD200CA5DDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9471D5222C043EFC00175AE1 /* ContentView.swift in Sources */,
-				9471D5202C043EFC00175AE1 /* kirinoApp.swift in Sources */,
+				94599CB42C060B6400CA5DDC /* Message.swift in Sources */,
+				94599CB62C060BF700CA5DDC /* CircleImage.swift in Sources */,
+				94599CB82C060D0000CA5DDC /* ModelData.swift in Sources */,
+				94599CA72C060AD200CA5DDC /* ContentView.swift in Sources */,
+				94599CA52C060AD200CA5DDC /* kirinoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94599CBE2C07680C00CA5DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94599CC72C07680C00CA5DDC /* ContentView.swift in Sources */,
+				9479F31E2C08949D00A3EA74 /* DetailView.swift in Sources */,
+				94E1E6872C083E9A007C9258 /* Message.swift in Sources */,
+				9479F3202C089C8700A3EA74 /* WatchKirinoApp.swift in Sources */,
+				9479F3252C08BB7200A3EA74 /* ResponseNotificationView.swift in Sources */,
+				9479F32F2C09C49300A3EA74 /* ExtensionDelegate.swift in Sources */,
+				94E1E68D2C08455B007C9258 /* NotificationController.swift in Sources */,
+				9479F3222C08BA6F00A3EA74 /* ResponseController.swift in Sources */,
+				94E1E6882C083E9A007C9258 /* ModelData.swift in Sources */,
+				94E1E6892C083E9A007C9258 /* CircleImage.swift in Sources */,
+				94E1E68B2C083EEF007C9258 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		94599CCE2C07680E00CA5DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94599CC12C07680C00CA5DDC /* WatchKirino Watch App */;
+			targetProxy = 94599CCD2C07680E00CA5DDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		9471D53E2C043EFF00175AE1 /* Debug */ = {
+		94599CAD2C060AD300CA5DDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,16 +401,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		9471D53F2C043EFF00175AE1 /* Release */ = {
+		94599CAE2C060AD300CA5DDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,32 +458,109 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9471D5412C043EFF00175AE1 /* Debug */ = {
+		94599CB02C060AD300CA5DDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kirino/kirino.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"kirino Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"kirino/Preview Content\"";
+				DEVELOPMENT_TEAM = 6332BXK582;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = kirino;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_FILE = kirino/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.itsnowkim.newkirino;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsnowkim.newkirino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94599CB12C060AD300CA5DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kirino/kirino.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kirino/Preview Content\"";
+				DEVELOPMENT_TEAM = 6332BXK582;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kirino/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.itsnowkim.newkirino;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsnowkim.newkirino;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94599CD12C07680E00CA5DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "WatchKirino Watch App/WatchKirino Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchKirino Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6332BXK582;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchKirino-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WatchKirino;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.itsnowkim.newkirino;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsnowkim.newkirino.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -288,32 +571,37 @@
 			};
 			name = Debug;
 		};
-		9471D5422C043EFF00175AE1 /* Release */ = {
+		94599CD22C07680E00CA5DDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "WatchKirino Watch App/WatchKirino Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"kirino Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WatchKirino Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6332BXK582;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = kirino;
+				INFOPLIST_FILE = "WatchKirino-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WatchKirino;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.itsnowkim.newkirino;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsnowkim.newkirino.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 10.5;
 			};
 			name = Release;
@@ -321,25 +609,58 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9471D5172C043EFC00175AE1 /* Build configuration list for PBXProject "kirino" */ = {
+		94599C9C2C060AD200CA5DDC /* Build configuration list for PBXProject "kirino" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9471D53E2C043EFF00175AE1 /* Debug */,
-				9471D53F2C043EFF00175AE1 /* Release */,
+				94599CAD2C060AD300CA5DDC /* Debug */,
+				94599CAE2C060AD300CA5DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9471D5402C043EFF00175AE1 /* Build configuration list for PBXNativeTarget "kirino Watch App" */ = {
+		94599CAF2C060AD300CA5DDC /* Build configuration list for PBXNativeTarget "kirino" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9471D5412C043EFF00175AE1 /* Debug */,
-				9471D5422C043EFF00175AE1 /* Release */,
+				94599CB02C060AD300CA5DDC /* Debug */,
+				94599CB12C060AD300CA5DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94599CD02C07680E00CA5DDC /* Build configuration list for PBXNativeTarget "WatchKirino Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94599CD12C07680E00CA5DDC /* Debug */,
+				94599CD22C07680E00CA5DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		94904CC02C09F2E70080EDE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94904CC12C09F2E70080EDE4 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94904CC02C09F2E70080EDE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		94904CC32C09F2E70080EDE4 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94904CC02C09F2E70080EDE4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 9471D5142C043EFC00175AE1 /* Project object */;
+	rootObject = 94599C992C060AD200CA5DDC /* Project object */;
 }
