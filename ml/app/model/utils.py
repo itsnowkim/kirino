@@ -1,17 +1,18 @@
+import os
 
-def get_model(version:str):
-    """
-    model 가져오는 함수 - 예시
-    """
-    print(f"get {version} model")
-    model = None
+PERSONA_DIR="persona"
 
-    return model
+def id2path(id: str) -> str:
+    return f"{PERSONA_DIR}/{id}"
 
+def load_persona(persona_path: str) -> str:
+    if os.path.exists(persona_path):
+        with open(persona_path, 'r', encoding='utf-8') as file:
+            return file.read()
+    return ""
 
-if __name__ == "__main__":
-    """
-    utils 함수 테스트할 때 main 함수만 local 에서 실행
-    실제로는 def 된 함수만 import 해서 쓰면 됨
-    """
-    print("ml/app/model/utils.py")
+def save_persona(persona: str, persona_path: str):
+    if not os.path.exists(PERSONA_DIR):
+        os.makedirs(PERSONA_DIR)
+    with open(persona_path, 'w', encoding='utf-8') as file:
+        file.write(persona)
